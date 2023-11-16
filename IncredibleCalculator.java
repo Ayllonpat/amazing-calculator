@@ -16,6 +16,19 @@ public class IncredibleCalculator {
 
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+                int a, b, suma;
+                String aux;
+                
+                System.out.println("Indique el primer número a sumar:")
+                aux=sc.nextLine();
+                a=Integer.parseInt(aux);
+                System.out.println("Indique el segundo número a sumar:")
+                aux=sc.nextLine();
+                b=Integer.parseInt(aux);
+
+                suma=a+b;
+
+                System.out.println("El resultado de la suma es:"+suma)
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
                     break;
